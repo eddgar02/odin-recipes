@@ -1,0 +1,48 @@
+body {
+    background-color: #59344F; /* Change this color to whatever you like */
+}
+
+.ti {
+    color: #BFEDEF;
+    text-align: center;
+    font-size: 4.5em;
+}
+
+/* Reset default list styling and center the list items */
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;            /* Remove default padding */
+    display: flex;         /* Use Flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center;   /* Center items horizontally */
+}
+
+/* Styles for the li elements */
+li {
+    font-size: 1.5em;
+    color: #8CC084;
+    margin: 30px auto;
+    padding: 10px;
+    width: 300px;           /* Set a width for the list items */
+}
+
+/* Styles for the a elements within li */
+li a {
+    display: block;       /* Make the link fill the li */
+    text-decoration: none; /* Remove underline from links */
+    color: #BFEDEF;       /* Change link color */
+    text-align: center;    /* Center text inside the box */
+    background-color: #4f3247; /* Background color for the box */
+    border: 2px solid black; /* Border for the box */
+    border-radius: 5px;     /* Rounded corners */
+    padding: 15px;          /* Add padding inside the box */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+    cursor: pointer;        /* Cursor change on hover */
+}
+
+/* Hover effect for the a elements within li */
+li a:hover {
+    color: #BFEDEF;       /* Change link color on hover */
+    background-color: #814371; /* Change background color on hover */
+    border-color: black;     /* Change border color on hover */
+}
